@@ -55,24 +55,6 @@ function cargarAnimaciones(){
             lineCap:"circle",
             animate:2000,
         });
-        $('.chart7').easyPieChart({
-            size:160,
-            barColor:"#ff5b00",
-            scaleLength:0,
-            lineWidth:15,
-            tackColor:"#525151",
-            lineCap:"circle",
-            animate:2000,
-        });
-        $('.chart8').easyPieChart({
-            size:160,
-            barColor:"#ff5b00",
-            scaleLength:0,
-            lineWidth:15,
-            tackColor:"#525151",
-            lineCap:"circle",
-            animate:2000,
-        });
 
     })
 }
@@ -108,8 +90,6 @@ function efectoHabilidades(){
         habilidades[3].classList.add("chart4");
         habilidades[4].classList.add("chart5");
         habilidades[5].classList.add("chart6");
-        habilidades[6].classList.add("chart7");
-        habilidades[7].classList.add("chart8");
 
         cargarAnimaciones();
     }
