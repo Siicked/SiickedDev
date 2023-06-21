@@ -85,7 +85,6 @@ body{
 }
 .inicio .fila .col button{
     position: relative;
-    left: 120px;
     bottom: 10px;
     background: none;
     width: fit-content;
